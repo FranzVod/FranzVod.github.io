@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="funcs.js"></script>
+	<title> Test Musicale </title>
+</head>
+
+<body>
+    <style>
+        body{
+            background-image: url('spartitoNew.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+    <div>
+        <button onclick="toggleDark()">Inverti tema (chiaro &lt&gt scuro)</button> oppure 
+        <a href="index.html">torna alla pagina principale</a>
+    </div>
+	<h1 class="big">Quanto sei bravo nella musica?</h1>
+
+
+	Hai voglia di fare un gioco a tema musicale? Bene! Sei giunto alla pagina corretta!
+	<br> Ti presento:
+
+	<h1>Indovina la musica</h1>
+
+	<p>Vediamo quanto sei bravo a riconoscere le canzoni. Te ne presento una, vediamo se sei in grado di riconoscerla.
+		<br> È tutto ancora in fase di sviluppo (&beta), quindi al momento è disponibile solo una canzone.<br>
+		(prima di cominciare, però leggi il disclaimer cliccando il link qui sotto)
+	</p>
+	<div class="popup" onclick="pop()">
+		<u>Leggi il disclaimer</u>
+		<span class="popuptext" id="myPopup">Disclaimer: ho scelto questa canzoncina perché era semplice
+			da scrivere via testo ed è la prima che mi è passata per la testa con questa proprietà.
+			Non indica alcuna mia preferenza per questo genere musicale o quant'altro. (suggerimento: ho gusti musicali mooooolto diversi)
+		</span>
+	</div>
+
+	<p id="paragrafo1">
+		MI mI MI mI MI miiimmiii mi mI mI MI MI miii
+	</p>
+	L'hai riconosciuta?
+	<button type="button" onclick="buttonYesMusichetta()">Si</button>
+	<button type="button" onclick="buttonNoMusichetta()">No</button>
+	<p id="mimimi"></p>
+
+	
+	<input id="textBox" style="visibility: hidden;" name="inputMusichetta" type="text" id="inputMimimi">
+	<input id="okButton" style="visibility: hidden;" type="button" onclick="musichettaIndovinata()" value="Si">
+
+	<p id="innerMimimi"></p>
+
+
+	<p align="right">
+        <a href="#">Torna su</a>
+        <br>oppure<br>
+        <a href="index.html">Torna alla pagina principale</a>
+    </p>
+
+</body>
+
+
+</html>
