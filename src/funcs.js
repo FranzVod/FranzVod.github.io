@@ -8,11 +8,6 @@ function toggleDark() {
 
 
 
-
-function changeText(){
-  document.getElementById("demo").innerHTML = "Paragraph changed!";
-}
-
 function buttonYesMusichetta(){
   document.getElementById("mimimi").innerHTML = "Bene! Ma non mi fido. Scrivi qui sotto il nome (solo una risposta è giusta, quindi se sei convinto prova ad inserire il titolo finchè non lo azzecchi! Occhio a maiuscole e minuscole!)";
   document.getElementById("textBox").style.visibility = "visible";
