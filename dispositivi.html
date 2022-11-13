@@ -47,8 +47,41 @@
             <figcaption>siamo giunti agli attuali transistor SuperFinFET.</figcaption> <!-- Ringrazio Der8auer per aver svolto queste misurazioni e aver catturato questa (e tante altre) fantastiche immagini con il microscopio elettronico -->
         </figure>
 
+        <p>
+            Si stanno sviluppando design innovativi, come i GAA (Gate All Around, ovvero il gate è completamente attorniato dal canale), i VTFET (Vertical Transfer FET,
+            quindi transistor che non fanno più correre corrente sul piano, o comunque in 2.5D, ma sulla terza dimensione) e, più avanti, transistor fotonici e quantistici,
+            i quali fanno uso rispettivamente delle proprietà quantistiche dei fotoni e di elettroni/piccoli_adroni.
+        </p>
+
         Si potrebbe parlare ore dei transistor, ma purtroppo il tempo è tiranno e quindi mi fermo qui con la scrittura. Per approfondire lascio il
         <a href="https://it.wikiversity.org/wiki/Materia:Dispositivi_elettronici">link di Wikiversità alla pagina sui Dispositivi elettronici</a>.
+
+        <p>
+            PS: immagino ora che vi stiate chiedendo cosa sia l'immagine di sfondo: si tratta della schematizzazione del <i>PowerVia</i>, una nuova struttura che Intel
+            vuole integrare dal suo processo produttivo <i>20A</i> in poi. Invece di intrecciare le linee di alimentazione e di interconnessione dei vari transistor
+            si vuole portare quelle di alimentazione al di sotto dei transistor, in modo da
+            <ul>
+                <li>ridurre le interferenze</li>
+                <li>aumentare le linee di interconnessione tra i vari transistor oppure accorciare quelle già esistenti</li>
+                <li>
+                    ridurre la tensione di soglia dei transistor, comportando quindi
+                    <ul>
+                        <li>una riduzione dei consumi elettrici</li>
+                        <li>una riduzione della potenza dissipata, e quindi del calore prodotto dai singoli transistor</li>
+                        <li>un aumento del margine termico, con la conseguente possibilità di aumentare la frequenza o il tempo di boost dei singoli core</li>
+                    </ul>
+                </li>
+            </ul>
+
+            Questa tecnologia, assieme al <i>RibbonFET</i> (l'implementazione della Intel del GAA) dovrebbero consentire alla casa di Santa Clara di portare avanti
+            ancora l'innovazione nell'architettura x86, confermando nuovamente la validità della legge di Moore (legge prettamente economica, inizialmente basata sullo
+            scalaggio di Denard, ma che ora deve trovare altre formulazioni, altre innovazioni, in quanto non è più possibile dimezzare l'area dei transistor ogni 18 mesi).<br>
+            <br>
+            È possibile approfondire ulteriormente <a href="https://www.intel.com/content/www/us/en/corporate/usa-chipmaking/news-and-resources/video-intel-intros-ribbonfet-powervia-technologies.html">a questo link</a>.
+            
+        </p>
+
+
 
         <p align="right">
             <a href="#">Torna su</a>
